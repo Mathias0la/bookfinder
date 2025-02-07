@@ -21,7 +21,7 @@ export default function Header() {
   return (
     <header>
       <div className="logo">
-        <Link to="/">
+        <Link to="/bookfinder">
           <h1>Book Finder</h1>
         </Link>
       </div>
@@ -43,7 +43,7 @@ export default function Header() {
       <nav>
         <ul className={menuOpen ? "show" : ""}>
           <li>
-            <Link to="/">
+            <Link to="/bookfinder">
               {" "}
               <FaHouse /> Home
             </Link>
